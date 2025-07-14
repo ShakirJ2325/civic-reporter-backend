@@ -8,6 +8,7 @@ db.serialize(() => {
       issue TEXT NOT NULL,
       latitude REAL NOT NULL,
       longitude REAL NOT NULL,
+      photo TEXT,
       timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
     )
   `);
